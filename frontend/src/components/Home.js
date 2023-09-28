@@ -106,7 +106,7 @@ const Home = () => {
                                                     Property Type
                                                 </h4>
                                                 <Dropdown>
-                                                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                                    <Dropdown.Toggle variant="success" id="dropdown-basic" className="btn btn-block ">
                                                         Type
                                                     </Dropdown.Toggle>
 
@@ -133,13 +133,13 @@ const Home = () => {
                                                 <h4 className='mb-3'>
                                                     Available Cities
                                                 </h4>
-                                                <Dropdown>
-                                                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                                <Dropdown >
+                                                    <Dropdown.Toggle variant="success" id="dropdown-basic" className="btn btn-block">
                                                         Cities
                                                     </Dropdown.Toggle>
 
-                                                    <Dropdown.Menu className='pl-0'>
-                                                        {cities.map(city => (
+                                                    <Dropdown.Menu className='pl-0' >
+                                                        {cities && cities.map(city => (
                                                             <Dropdown.Item 
                                                                 style={{
                                                                     cursor: 'pointer',

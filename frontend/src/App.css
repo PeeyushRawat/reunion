@@ -35,6 +35,12 @@ nav {
   background-color: #febd69;
 }
 
+#dropdown-basic {
+  background-color: #fa9c23;
+  color: white;
+  border-color: #fa9c23 ;
+}
+
 .input-group {
   width: 90%;
   margin-right: 35%;
