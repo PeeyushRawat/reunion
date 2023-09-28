@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Modern Townhouse",
+    "price": 350000,
+    "description": "A sleek and modern townhouse with high-end finishes and a private garden.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "image7_public_id",
+        "url": "https://example.com/image7.jpg"
+      },
+      {
+        "public_id": "image8_public_id",
+        "url": "https://example.com/image8.jpg"
+      }
+    ],
+    "propertyType": "Townhouse",
+    "numOfReviews": 12,
+    "reviews": [
+      {
+        "name": "Daniel Lee",
+        "rating": 5,
+        "comment": "I love the modern design and the spacious garden."
+      },
+      {
+        "name": "Olivia Adams",
+        "rating": 4.8,
+        "comment": "Great value for the price."
+      }
+    ],
+    "availableFrom": "2023-05-10",
+    "city": "Chicago",
+    "creadtedAt": "2023-09-20T14:15:00Z"
+  },
+  {
+    "name": "Downtown Office Space",
+    "price": 5000,
+    "description": "Prime office space in the city center with a view of the skyline.",
+    "ratings": 4.0,
+    "images": [
+      {
+        "public_id": "image9_public_id",
+        "url": "https://example.com/image9.jpg"
+      },
+      {
+        "public_id": "image10_public_id",
+        "url": "https://example.com/image10.jpg"
+      }
+    ],
+    "propertyType": "Commercial Property",
+    "numOfReviews": 6,
+    "reviews": [
+      {
+        "name": "Mark Wilson",
+        "rating": 4.2,
+        "comment": "Impressive office space, but the rent is a bit high."
+      },
+      {
+        "name": "Karen Brown",
+        "rating": 3.5,
+        "comment": "Convenient location, but parking can be a challenge."
+      }
+    ],
+    "availableFrom": "2023-01-01",
+    "city": "San Francisco",
+    "creadtedAt": "2023-09-18T11:45:00Z"
+  },
+  {
+    "name": "Rural Farmhouse",
+    "price": 300000,
+    "description": "A charming farmhouse with acres of land for farming and peaceful living.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "image11_public_id",
+        "url": "https://example.com/image11.jpg"
+      },
+      {
+        "public_id": "image12_public_id",
+        "url": "https://example.com/image12.jpg"
+      }
+    ],
+    "propertyType": "Triplex",
+    "numOfReviews": 9,
+    "reviews": [
+      {
+        "name": "Linda Smith",
+        "rating": 5,
+        "comment": "The perfect retreat from the city."
+      },
+      {
+        "name": "Michael Clark",
+        "rating": 4.9,
+        "comment": "Great for those who appreciate rural living."
+      }
+    ],
+    "availableFrom": "2023-04-25",
+    "city": "Austin",
+    "creadtedAt": "2023-09-14T16:30:00Z"
+  },
+  {
+    "name": "Industrial Warehouse",
+    "price": 800000,
+    "description": "A spacious industrial warehouse with loading docks and ample storage space.",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "image13_public_id",
+        "url": "https://example.com/image13.jpg"
+      },
+      {
+        "public_id": "image14_public_id",
+        "url": "https://example.com/image14.jpg"
+      }
+    ],
+    "propertyType": "Industrial Property",
+    "numOfReviews": 7,
+    "reviews": [
+      {
+        "name": "Robert Turner",
+        "rating": 4.5,
+        "comment": "Ideal for our business operations."
+      },
+      {
+        "name": "Lisa Davis",
+        "rating": 4.0,
+        "comment": "Good value for an industrial space."
+      }
+    ],
+    "availableFrom": "2023-09-05",
+    "city": "Houston",
+    "creadtedAt": "2023-09-22T10:20:00Z"
+  },
+  {
+    "name": "Retail Storefront",
+    "price": 150000,
+    "description": "A prime retail storefront in a bustling shopping district.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "image15_public_id",
+        "url": "https://example.com/image15.jpg"
+      },
+      {
+        "public_id": "image16_public_id",
+        "url": "https://example.com/image16.jpg"
+      }
+    ],
+    "propertyType": "Retail Space",
+    "numOfReviews": 11,
+    "reviews": [
+      {
+        "name": "Jennifer White",
+        "rating": 5,
+        "comment": "Perfect location for my boutique!"
+      },
+      {
+        "name": "Steven Johnson",
+        "rating": 4.6,
+        "comment": "Great foot traffic and visibility."
+      }
+    ],
+    "availableFrom": "2023-10-08",
+    "city": "Miami",
+    "creadtedAt": "2023-09-17T15:40:00Z"
+  },
+  {
+    "name": "Scenic Lakefront Property",
+    "price": 550000,
+    "description": "A beautiful lakefront property with stunning views and a private dock.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "image17_public_id",
+        "url": "https://example.com/image17.jpg"
+      },
+      {
+        "public_id": "image18_public_id",
+        "url": "https://example.com/image18.jpg"
+      }
+    ],
+    "propertyType": "Vacant Land",
+    "numOfReviews": 14,
+    "reviews": [
+      {
+        "name": "Andrew Adams",
+        "rating": 5,
+        "comment": "A dream come true for nature lovers."
+      },
+      {
+        "name": "Rachel Miller",
+        "rating": 4.8,
+        "comment": "A perfect spot for a vacation home."
+      }
+    ],
+    "availableFrom": "2023-10-01",
+    "city": "Seattle",
+    "creadtedAt": "2023-09-19T12:10:00Z"
+  },
+  {
+    "name": "Urban Condo",
+    "price": 320000,
+    "description": "A chic urban condo with easy access to city life and public transportation.",
+    "ratings": 4.4,
+    "images": [
+      {
+        "public_id": "image19_public_id",
+        "url": "https://example.com/image19.jpg"
+      },
+      {
+        "public_id": "image20_public_id",
+        "url": "https://example.com/image20.jpg"
+      }
+    ],
+    "propertyType": "Condominium",
+    "numOfReviews": 10,
+    "reviews": [
+      {
+        "name": "Laura Wilson",
+        "rating": 4.5,
+        "comment": "Convenient and stylish city living."
+      },
+      {
+        "name": "Brian Turner",
+        "rating": 4.3,
+        "comment": "Perfect for professionals who love the city."
+      }
+    ],
+    "availableFrom": "2023-10-08",
+    "city": "Boston",
+    "creadtedAt": "2023-09-21T09:50:00Z"
+  },
+  {
+    "name": "Historic Office Building",
+    "price": 1200000,
+    "description": "A historic office building with character and modern amenities.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "image21_public_id",
+        "url": "https://example.com/image21.jpg"
+      },
+      {
+        "public_id": "image22_public_id",
+        "url": "https://example.com/image22.jpg"
+      }
+    ],
+    "propertyType": "Commercial Property",
+    "numOfReviews": 9,
+    "reviews": [
+      {
+        "name": "Chris Johnson",
+        "rating": 4.8,
+        "comment": "A unique and inspiring workspace."
+      },
+      {
+        "name": "Megan Davis",
+        "rating": 4.6,
+        "comment": "Great location for our company headquarters."
+      }
+    ],
+    "availableFrom": "2023-05-01",
+    "city": "Washington, D.C.",
+    "creadtedAt": "2023-09-23T13:25:00Z"
+  },
+  {
+    "name": "City View Apartment",
+    "price": 280000,
+    "description": "A comfortable city view apartment with modern amenities and a balcony.",
+    "ratings": 4.2,
+    "images": [
+      {
+        "public_id": "image23_public_id",
+        "url": "https://example.com/image23.jpg"
+      },
+      {
+        "public_id": "image24_public_id",
+        "url": "https://example.com/image24.jpg"
+      }
+    ],
+    "propertyType": "Apartment",
+    "numOfReviews": 6,
+    "reviews": [
+      {
+        "name": "Nathan Clark",
+        "rating": 4.3,
+        "comment": "Enjoying the city view from my balcony."
+      },
+      {
+        "name": "Sophia Turner",
+        "rating": 4.0,
+        "comment": "Nice apartment, but parking can be a hassle."
+      }
+    ],
+    "availableFrom": "2023-10-05",
+    "city": "Los Angeles",
+    "creadtedAt": "2023-09-24T10:15:00Z"
+  }
+]
