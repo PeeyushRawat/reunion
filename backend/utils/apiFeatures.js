@@ -19,8 +19,16 @@ class APIFeatures{
             }
         } : {}
 
+        const propertyType = this.queryStr.propertyType ? {
+            propertyType: {
+                $regex: this.queryStr.propertyType,
+                $options: 'i'
+            }
+        } : {}
+
         this.query = this.query.find({...keyword});
         this.query = this.query.find({...city})
+        this.query = this.query.find({...propertyType})
         return this;
     }
 
