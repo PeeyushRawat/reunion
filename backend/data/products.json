@@ -1,299 +1,605 @@
 [
   {
-    "name": "Modern Townhouse",
-    "price": 350000,
-    "description": "A sleek and modern townhouse with high-end finishes and a private garden.",
-    "ratings": 4.6,
+    "name": "Luxury Apartment in Downtown",
+    "price": 2500,
+    "description": "Spacious and modern apartment in the heart of the city.",
+    "ratings": 4.5,
     "images": [
       {
-        "public_id": "image7_public_id",
-        "url": "https://example.com/image7.jpg"
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
       },
       {
-        "public_id": "image8_public_id",
-        "url": "https://example.com/image8.jpg"
-      }
-    ],
-    "propertyType": "Townhouse",
-    "numOfReviews": 12,
-    "reviews": [
-      {
-        "name": "Daniel Lee",
-        "rating": 5,
-        "comment": "I love the modern design and the spacious garden."
-      },
-      {
-        "name": "Olivia Adams",
-        "rating": 4.8,
-        "comment": "Great value for the price."
-      }
-    ],
-    "availableFrom": "2023-05-10",
-    "city": "Chicago",
-    "creadtedAt": "2023-09-20T14:15:00Z"
-  },
-  {
-    "name": "Downtown Office Space",
-    "price": 5000,
-    "description": "Prime office space in the city center with a view of the skyline.",
-    "ratings": 4.0,
-    "images": [
-      {
-        "public_id": "image9_public_id",
-        "url": "https://example.com/image9.jpg"
-      },
-      {
-        "public_id": "image10_public_id",
-        "url": "https://example.com/image10.jpg"
-      }
-    ],
-    "propertyType": "Commercial Property",
-    "numOfReviews": 6,
-    "reviews": [
-      {
-        "name": "Mark Wilson",
-        "rating": 4.2,
-        "comment": "Impressive office space, but the rent is a bit high."
-      },
-      {
-        "name": "Karen Brown",
-        "rating": 3.5,
-        "comment": "Convenient location, but parking can be a challenge."
-      }
-    ],
-    "availableFrom": "2023-01-01",
-    "city": "San Francisco",
-    "creadtedAt": "2023-09-18T11:45:00Z"
-  },
-  {
-    "name": "Rural Farmhouse",
-    "price": 300000,
-    "description": "A charming farmhouse with acres of land for farming and peaceful living.",
-    "ratings": 4.9,
-    "images": [
-      {
-        "public_id": "image11_public_id",
-        "url": "https://example.com/image11.jpg"
-      },
-      {
-        "public_id": "image12_public_id",
-        "url": "https://example.com/image12.jpg"
-      }
-    ],
-    "propertyType": "Triplex",
-    "numOfReviews": 9,
-    "reviews": [
-      {
-        "name": "Linda Smith",
-        "rating": 5,
-        "comment": "The perfect retreat from the city."
-      },
-      {
-        "name": "Michael Clark",
-        "rating": 4.9,
-        "comment": "Great for those who appreciate rural living."
-      }
-    ],
-    "availableFrom": "2023-04-25",
-    "city": "Austin",
-    "creadtedAt": "2023-09-14T16:30:00Z"
-  },
-  {
-    "name": "Industrial Warehouse",
-    "price": 800000,
-    "description": "A spacious industrial warehouse with loading docks and ample storage space.",
-    "ratings": 4.3,
-    "images": [
-      {
-        "public_id": "image13_public_id",
-        "url": "https://example.com/image13.jpg"
-      },
-      {
-        "public_id": "image14_public_id",
-        "url": "https://example.com/image14.jpg"
-      }
-    ],
-    "propertyType": "Industrial Property",
-    "numOfReviews": 7,
-    "reviews": [
-      {
-        "name": "Robert Turner",
-        "rating": 4.5,
-        "comment": "Ideal for our business operations."
-      },
-      {
-        "name": "Lisa Davis",
-        "rating": 4.0,
-        "comment": "Good value for an industrial space."
-      }
-    ],
-    "availableFrom": "2023-09-05",
-    "city": "Houston",
-    "creadtedAt": "2023-09-22T10:20:00Z"
-  },
-  {
-    "name": "Retail Storefront",
-    "price": 150000,
-    "description": "A prime retail storefront in a bustling shopping district.",
-    "ratings": 4.7,
-    "images": [
-      {
-        "public_id": "image15_public_id",
-        "url": "https://example.com/image15.jpg"
-      },
-      {
-        "public_id": "image16_public_id",
-        "url": "https://example.com/image16.jpg"
-      }
-    ],
-    "propertyType": "Retail Space",
-    "numOfReviews": 11,
-    "reviews": [
-      {
-        "name": "Jennifer White",
-        "rating": 5,
-        "comment": "Perfect location for my boutique!"
-      },
-      {
-        "name": "Steven Johnson",
-        "rating": 4.6,
-        "comment": "Great foot traffic and visibility."
-      }
-    ],
-    "availableFrom": "2023-10-08",
-    "city": "Miami",
-    "creadtedAt": "2023-09-17T15:40:00Z"
-  },
-  {
-    "name": "Scenic Lakefront Property",
-    "price": 550000,
-    "description": "A beautiful lakefront property with stunning views and a private dock.",
-    "ratings": 4.9,
-    "images": [
-      {
-        "public_id": "image17_public_id",
-        "url": "https://example.com/image17.jpg"
-      },
-      {
-        "public_id": "image18_public_id",
-        "url": "https://example.com/image18.jpg"
-      }
-    ],
-    "propertyType": "Vacant Land",
-    "numOfReviews": 14,
-    "reviews": [
-      {
-        "name": "Andrew Adams",
-        "rating": 5,
-        "comment": "A dream come true for nature lovers."
-      },
-      {
-        "name": "Rachel Miller",
-        "rating": 4.8,
-        "comment": "A perfect spot for a vacation home."
-      }
-    ],
-    "availableFrom": "2023-10-01",
-    "city": "Seattle",
-    "creadtedAt": "2023-09-19T12:10:00Z"
-  },
-  {
-    "name": "Urban Condo",
-    "price": 320000,
-    "description": "A chic urban condo with easy access to city life and public transportation.",
-    "ratings": 4.4,
-    "images": [
-      {
-        "public_id": "image19_public_id",
-        "url": "https://example.com/image19.jpg"
-      },
-      {
-        "public_id": "image20_public_id",
-        "url": "https://example.com/image20.jpg"
-      }
-    ],
-    "propertyType": "Condominium",
-    "numOfReviews": 10,
-    "reviews": [
-      {
-        "name": "Laura Wilson",
-        "rating": 4.5,
-        "comment": "Convenient and stylish city living."
-      },
-      {
-        "name": "Brian Turner",
-        "rating": 4.3,
-        "comment": "Perfect for professionals who love the city."
-      }
-    ],
-    "availableFrom": "2023-10-08",
-    "city": "Boston",
-    "creadtedAt": "2023-09-21T09:50:00Z"
-  },
-  {
-    "name": "Historic Office Building",
-    "price": 1200000,
-    "description": "A historic office building with character and modern amenities.",
-    "ratings": 4.7,
-    "images": [
-      {
-        "public_id": "image21_public_id",
-        "url": "https://example.com/image21.jpg"
-      },
-      {
-        "public_id": "image22_public_id",
-        "url": "https://example.com/image22.jpg"
-      }
-    ],
-    "propertyType": "Commercial Property",
-    "numOfReviews": 9,
-    "reviews": [
-      {
-        "name": "Chris Johnson",
-        "rating": 4.8,
-        "comment": "A unique and inspiring workspace."
-      },
-      {
-        "name": "Megan Davis",
-        "rating": 4.6,
-        "comment": "Great location for our company headquarters."
-      }
-    ],
-    "availableFrom": "2023-05-01",
-    "city": "Washington, D.C.",
-    "creadtedAt": "2023-09-23T13:25:00Z"
-  },
-  {
-    "name": "City View Apartment",
-    "price": 280000,
-    "description": "A comfortable city view apartment with modern amenities and a balcony.",
-    "ratings": 4.2,
-    "images": [
-      {
-        "public_id": "image23_public_id",
-        "url": "https://example.com/image23.jpg"
-      },
-      {
-        "public_id": "image24_public_id",
-        "url": "https://example.com/image24.jpg"
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
       }
     ],
     "propertyType": "Apartment",
+    "numOfReviews": 5,
+    "reviews": [
+      {
+        "name": "John Doe",
+        "rating": 4.5,
+        "comment": "Great location and amenities.",
+        "user": "651509bb5f5fbb1ace8e8b8c"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-05T12:00:00Z",
+    "city": "New York",
+    "creadtedAt": "2023-09-29T08:00:00Z"
+  },
+  {
+    "name": "Cozy Townhouse with Garden",
+    "price": 1800,
+    "description": "Charming townhouse with a beautiful garden.",
+    "ratings": 4.0,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Townhouse",
+    "numOfReviews": 3,
+    "reviews": [
+      {
+        "name": "Alice Smith",
+        "rating": 4.0,
+        "comment": "Lovely place to stay!",
+        "user": "6515f87dbf195371810158de"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-10T14:00:00Z",
+    "city": "Los Angeles",
+    "creadtedAt": "2023-09-30T10:00:00Z"
+  },
+  {
+    "name": "Spacious Single-Family Home",
+    "price": 3200,
+    "description": "Large single-family home with a backyard.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Single-Family Home",
+    "numOfReviews": 7,
+    "reviews": [
+      {
+        "name": "Eva Johnson",
+        "rating": 4.8,
+        "comment": "Perfect family home!",
+        "user": "6515f8cd7996a71dd30db585"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-09-25T10:00:00Z",
+    "city": "Chicago",
+    "creadtedAt": "2023-09-28T16:00:00Z"
+  },
+  {
+    "name": "Modern Condominium with View",
+    "price": 2800,
+    "description": "Contemporary condominium with a stunning city view.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Condominium",
     "numOfReviews": 6,
     "reviews": [
       {
-        "name": "Nathan Clark",
-        "rating": 4.3,
-        "comment": "Enjoying the city view from my balcony."
-      },
-      {
-        "name": "Sophia Turner",
-        "rating": 4.0,
-        "comment": "Nice apartment, but parking can be a hassle."
+        "name": "Michael Brown",
+        "rating": 4.7,
+        "comment": "The view is breathtaking!",
+        "user": "651625474631386907e22ffc"
       }
     ],
-    "availableFrom": "2023-10-05",
-    "city": "Los Angeles",
-    "creadtedAt": "2023-09-24T10:15:00Z"
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-15T11:00:00Z",
+    "city": "San Francisco",
+    "creadtedAt": "2023-09-27T14:00:00Z"
+  },
+  {
+    "name": "Downtown Loft Apartment",
+    "price": 2000,
+    "description": "Trendy loft apartment in the downtown area.",
+    "ratings": 4.2,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Apartment",
+    "numOfReviews": 4,
+    "reviews": [
+      {
+        "name": "Sarah Wilson",
+        "rating": 4.2,
+        "comment": "Cool place with a unique vibe.",
+        "user": "6515f8cd7996a71dd30db585"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-20T13:00:00Z",
+    "city": "Miami",
+    "creadtedAt": "2023-09-26T12:00:00Z"
+  },
+  {
+    "name": "Riverside Cabin Retreat",
+    "price": 1500,
+    "description": "Secluded cabin by the river for a peaceful getaway.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Vacant Land",
+    "numOfReviews": 8,
+    "reviews": [
+      {
+        "name": "David Clark",
+        "rating": 4.9,
+        "comment": "Absolutely serene!",
+        "user": "651509bb5f5fbb1ace8e8b8c"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-09-22T09:00:00Z",
+    "city": "Denver",
+    "creadtedAt": "2023-09-25T18:00:00Z"
+  },
+  {
+    "name": "Industrial Warehouse Space",
+    "price": 4000,
+    "description": "Spacious warehouse for industrial use.",
+    "ratings": 3.5,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Industrial Property",
+    "numOfReviews": 2,
+    "reviews": [
+      {
+        "name": "Robert Taylor",
+        "rating": 3.5,
+        "comment": "Good for business needs.",
+        "user": "651625474631386907e22ffc"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-09-28T15:00:00Z",
+    "city": "Dallas",
+    "creadtedAt": "2023-09-24T20:00:00Z"
+  },
+  {
+    "name": "Seaside Vacation Home",
+    "price": 2200,
+    "description": "Beautiful vacation home by the beach.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Single-Family Home",
+    "numOfReviews": 5,
+    "reviews": [
+      {
+        "name": "Linda White",
+        "rating": 4.6,
+        "comment": "Perfect for a family vacation!",
+        "user": "6515f87dbf195371810158de"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-01T16:00:00Z",
+    "city": "Seattle",
+    "creadtedAt": "2023-09-23T15:00:00Z"
+  },
+  {
+    "name": "Commercial Office Space",
+    "price": 3500,
+    "description": "Spacious office space for businesses.",
+    "ratings": 3.9,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Commercial Property",
+    "numOfReviews": 4,
+    "reviews": [
+      {
+        "name": "Mark Anderson",
+        "rating": 3.9,
+        "comment": "Good location for our company.",
+        "user": "651509bb5f5fbb1ace8e8b8c"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-09-30T17:00:00Z",
+    "city": "Houston",
+    "creadtedAt": "2023-09-22T14:00:00Z"
+  },
+  {
+    "name": "Mountain View Retreat",
+    "price": 1900,
+    "description": "Cabin in the mountains with stunning views.",
+    "ratings": 4.4,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Vacant Land",
+    "numOfReviews": 6,
+    "reviews": [
+      {
+        "name": "James Wilson",
+        "rating": 4.4,
+        "comment": "A beautiful escape!",
+        "user": "651625474631386907e22ffc"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-02T10:00:00Z",
+    "city": "Phoenix",
+    "creadtedAt": "2023-09-21T12:00:00Z"
+  },
+
+
+  {
+    "name": "Charming Duplex with Garden",
+    "price": 2100,
+    "description": "Lovely duplex with a private garden.",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Duplex",
+    "numOfReviews": 4,
+    "reviews": [
+      {
+        "name": "Emily Davis",
+        "rating": 4.3,
+        "comment": "Perfect for a small family.",
+        "user": "6515f87dbf195371810158de"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-12T15:00:00Z",
+    "city": "Boston",
+    "creadtedAt": "2023-09-20T16:00:00Z"
+  },
+  {
+    "name": "Modern Multi-Family Building",
+    "price": 3800,
+    "description": "Spacious multi-family building with great amenities.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Multi-Family Building",
+    "numOfReviews": 6,
+    "reviews": [
+      {
+        "name": "Daniel Brown",
+        "rating": 4.6,
+        "comment": "Ideal for families!",
+        "user": "6515f8cd7996a71dd30db585"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-08T11:00:00Z",
+    "city": "Philadelphia",
+    "creadtedAt": "2023-09-19T14:00:00Z"
+  },
+  {
+    "name": "Mobile Home by the Lake",
+    "price": 1600,
+    "description": "Cozy mobile home with a lakefront view.",
+    "ratings": 4.1,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Mobile Home",
+    "numOfReviews": 5,
+    "reviews": [
+      {
+        "name": "Sophia Lee",
+        "rating": 4.1,
+        "comment": "Relaxing and peaceful.",
+        "user": "651509bb5f5fbb1ace8e8b8c"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-18T10:00:00Z",
+    "city": "Austin",
+    "creadtedAt": "2023-09-18T12:00:00Z"
+  },
+  {
+    "name": "Retail Space in Shopping Mall",
+    "price": 4500,
+    "description": "Prime retail space in a bustling shopping mall.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Retail Space",
+    "numOfReviews": 7,
+    "reviews": [
+      {
+        "name": "Olivia Wilson",
+        "rating": 4.9,
+        "comment": "Excellent location for our store.",
+        "user": "651625474631386907e22ffc"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-09-26T09:00:00Z",
+    "city": "New Orleans",
+    "creadtedAt": "2023-09-17T18:00:00Z"
+  },
+  {
+    "name": "Luxury Industrial Space",
+    "price": 5000,
+    "description": "High-end industrial space with modern amenities.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Industrial Property",
+    "numOfReviews": 8,
+    "reviews": [
+      {
+        "name": "Noah Miller",
+        "rating": 4.8,
+        "comment": "Top-notch facilities!",
+        "user": "651625474631386907e22ffc"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-04T13:00:00Z",
+    "city": "San Diego",
+    "creadtedAt": "2023-09-16T16:00:00Z"
+  },
+  {
+    "name": "Downtown Commercial Space",
+    "price": 3200,
+    "description": "Prime commercial space in the heart of downtown.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Commercial Property",
+    "numOfReviews": 6,
+    "reviews": [
+      {
+        "name": "Aiden Davis",
+        "rating": 4.7,
+        "comment": "Perfect for our business needs.",
+        "user": "6515f87dbf195371810158de"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-14T12:00:00Z",
+    "city": "Washington, D.C.",
+    "creadtedAt": "2023-09-15T14:00:00Z"
+  },
+  {
+    "name": "Rural Farmhouse Retreat",
+    "price": 1900,
+    "description": "Peaceful farmhouse in the countryside.",
+    "ratings": 4.4,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Single-Family Home",
+    "numOfReviews": 5,
+    "reviews": [
+      {
+        "name": "Mia Johnson",
+        "rating": 4.4,
+        "comment": "A perfect getaway!",
+        "user": "651509bb5f5fbb1ace8e8b8c"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-25T15:00:00Z",
+    "city": "Nashville",
+    "creadtedAt": "2023-09-14T12:00:00Z"
+  },
+  {
+    "name": "Vacant Land for Development",
+    "price": 2800,
+    "description": "Large vacant land for commercial development.",
+    "ratings": 3.7,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Vacant Land",
+    "numOfReviews": 3,
+    "reviews": [
+      {
+        "name": "Lucas Smith",
+        "rating": 3.7,
+        "comment": "Great potential for a project.",
+        "user": "6515f8cd7996a71dd30db585"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-30T10:00:00Z",
+    "city": "Atlanta",
+    "creadtedAt": "2023-09-13T10:00:00Z"
+  },
+  {
+    "name": "Luxury Penthouse Apartment",
+    "price": 3500,
+    "description": "Elegant penthouse apartment with stunning city views.",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Apartment",
+    "numOfReviews": 7,
+    "reviews": [
+      {
+        "name": "Emma White",
+        "rating": 4.9,
+        "comment": "A dreamy place to live!",
+        "user": "6515f87dbf195371810158de"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-10-06T14:00:00Z",
+    "city": "Orlando",
+    "creadtedAt": "2023-09-12T16:00:00Z"
+  },
+  {
+    "name": "Office Space with City View",
+    "price": 2900,
+    "description": "Modern office space with panoramic city views.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "products/2150761168_ot5eai",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696003604/products/2150761168_ot5eai.jpg"
+      },
+      {
+        "public_id": "products/2150761170_ncirjz",
+        "url": "https://res.cloudinary.com/dnertou2p/image/upload/v1696004521/products/2150761170_ncirjz.jpg"
+      }
+    ],
+    "propertyType": "Commercial Property",
+    "numOfReviews": 5,
+    "reviews": [
+      {
+        "name": "Liam Davis",
+        "rating": 4.5,
+        "comment": "Impressive workspace!",
+        "user": "651625474631386907e22ffc"
+      }
+    ],
+    "user": "651509bb5f5fbb1ace8e8b8c",
+    "availableFrom": "2023-09-23T12:00:00Z",
+    "city": "Charlotte",
+    "creadtedAt": "2023-09-11T14:00:00Z"
   }
 ]
+

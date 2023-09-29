@@ -5,6 +5,7 @@
 
 # production
 /frontend/build
+/backend/data
 
 # misc
 /backend/config/config.env

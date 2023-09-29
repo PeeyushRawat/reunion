@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Link, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { useAlert } from 'react-alert'
@@ -36,11 +36,7 @@ const Header = () => {
             </div>
 
             <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
-              <Link to="/cart" style={{ textDecoration: 'none'}} >
-                <span id="cart" className="ml-3">Cart</span>
-                <span className="ml-1" id="cart_count">2</span>
-              </Link>
-
+              
               {user ? (
                 <div className='ml-4 dropdown d-inline'>
                   <Link to="#!" className='btn dropdown-toggle text-white'
